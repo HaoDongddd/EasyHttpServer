@@ -1,0 +1,304 @@
+/* 字体图标 */
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff2') format('woff2'), url('../fonts/iconfont.woff') format('woff'), url('../fonts/iconfont.ttf') format('truetype'), url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 定义版心 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+/* 页眉开始 */
+
+.shortcut {
+    height: 30px;
+    background-color: #f1f1f1;
+}
+
+.leftcut {
+    float: left;
+}
+
+.leftcut ul li, .rightcut ul li {
+    float: left;
+    height: 30px;
+}
+
+.leftcut ul li a, .rightcut ul li a {
+    padding: 0 6px;
+    line-height: 30px;
+}
+
+.rightcut {
+    float: right;
+}
+
+.rightcut ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    margin: 9px 5px;
+    background-color: #ccc;
+}
+
+.rightcut ul li a .iconfont {
+    font-size: 12px;
+}
+
+/* 头部开始 */
+
+.header {
+    position: relative;
+    margin-top: 26px;
+    height: 60px;
+}
+
+.header .logo {
+    width: 172px;
+    height: 60px;
+}
+
+.header .logo a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 172px;
+    height: 60px;
+    font-size: 0;
+    background: url(../images/icons.png) no-repeat -372px -11px;
+}
+
+.header .search {
+    position: absolute;
+    left: 348px;
+    top: 0;
+    height: 36px;
+    width: 538px;
+}
+
+.header .search input {
+    padding-left: 10px;
+    width: 454px;
+    height: 36px;
+    font-size: 14px;
+    color: #666666;
+    border: 2px solid #c81623;
+}
+
+.header .search button {
+    width: 84px;
+    height: 36px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #c81623;
+}
+
+.header .hotwords {
+    position: absolute;
+    left: 348px;
+    bottom: 0;
+}
+
+.header .hotwords ul li {
+    padding: 0 12px;
+    float: left;
+    font-size: 12px;
+}
+
+.header .shopcar {
+    position: absolute;
+    top: 0;
+    right: 64px;
+    height: 36px;
+    width: 140px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 36px;
+    background-color: #f7f7f7;
+}
+
+.header .shopcar .iconfont {
+    font-size: 12px;
+}
+
+.header .shopcar a::before {
+    content: "\f0179";
+    margin-right: 5px;
+    color: #c81623;
+}
+
+.header .shopcar a::after {
+    content: "\e616";
+    margin-left: 10px;
+}
+
+.header .shopcar .shopcount {
+    position: absolute;
+    left: 104px;
+    top: -7px;
+    padding: 0 5px;
+    height: 14px;
+    color: #ffffff;
+    line-height: 14px;
+    background-color: #c81623;
+    border-radius: 14px 14px 14px 0;
+}
+
+/* 导航开始 */
+
+.nav {
+    margin-top: 24px;
+    height: 46px;
+    border-bottom: 2px solid #c81623;
+}
+
+.nav .dropdown {
+    float: left;
+}
+
+.nav .dropdown dt, .nav .dropdown dd {
+    height: 46px;
+    width: 210px;
+    line-height: 31px;
+    color: #ffffff;
+}
+
+.nav .dropdown dt {
+    font-size: 16px;
+    text-align: center;
+    background-color: #b1191a;
+}
+
+.nav .dropdown dd {
+    position: relative;
+    padding-left: 12px;
+    text-align: left;
+    height: 31px;
+    background-color: #c81623;
+}
+
+.nav .dropdown dd a {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.nav .dropdown dd::after {
+    position: absolute;
+    right: 8px;
+    content: "\e616";
+}
+
+.nav .dropdown dd:hover, .nav .dropdown dd:hover a {
+    background-color: #ffffff;
+    color: #c81623;
+}
+
+.nav .navitems {
+    float: left;
+    margin-left: 15px;
+    height: 46px;
+}
+
+.nav .navitems ul li {
+    float: left;
+    padding: 0 25px;
+    font-size: 16px;
+    line-height: 46px;
+    color: #333333;
+}
+/* 底部开始 */
+.footer {
+    margin-top: 30px;
+    height: 420px;
+    background-color: #f5f5f5;
+}
+.footer .mod_service {
+    padding: 30px 0;
+    border-bottom: 1px solid #ededed;
+}
+.footer .mod_service ul {
+    height: 50px;
+}
+.footer .mod_service ul li {
+    float: left;
+    /* margin: 30px 0; */
+    width: 240px;
+}
+.footer .mod_service .service_text {
+    float: left;
+    padding: 6px 10px;
+}
+.footer .mod_service .service_text p {
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer .mod_service h5 {
+    float: left;
+    width: 51px;
+    height: 51px;
+    font-size: 0;
+}
+.footer .mod_service .first_service h5 {
+    background: url(../images/icons.png) no-repeat -252px -2px;
+}
+.footer .mod_service .second_service h5 {
+    background: url(../images/icons.png) no-repeat -255px -54px;
+}
+.footer .mod_service .three_service h5 {
+    background: url(../images/icons.png) no-repeat -256px -104px;
+}
+.footer .mod_service .four_service h5 {
+    background: url(../images/icons.png) no-repeat -257px -156px;
+}
+.footer .mod_service .five_service h5 {
+    background: url(../images/icons.png) no-repeat -257px -208px;
+}
+.footer .mod_help {
+    height: 190px;
+    border-bottom: 1px solid #ededed;
+}
+.footer .mod_help dl {
+    float: left;
+    padding: 20px 0 20px 50px;
+    width: 200px;
+}
+.footer .mod_help dl dt {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333333;
+}
+.footer .mod_help .apps {
+    width: 100px;
+    height: 100px;
+    padding-left: 0;
+    text-align: center;
+}
+.footer .mod_copyright {
+    padding: 15px 0;
+    text-align: center;
+}
+.footer .mod_copyright span {
+    padding: 0 5px;
+}
+.footer .mod_copyright .mod_copyright_info {
+    padding: 10px 0;
+    line-height: 22px;
+    color: #999999;
+}
